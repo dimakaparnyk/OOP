@@ -15,21 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\user\Desktop\DichotomyMethod.cpp">
+    <ClCompile Include="DichotomyMethod.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\user\Desktop\Lab_6.cpp">
+    <ClCompile Include="Lab_6.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\user\Desktop\NewtonMethod.cpp">
+    <ClCompile Include="NewtonMethod.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\user\Desktop\DichotomyMethod.h">
+    <ClInclude Include="DichotomyMethod.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\user\Desktop\NewtonMethod.h">
+    <ClInclude Include="NewtonMethod.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

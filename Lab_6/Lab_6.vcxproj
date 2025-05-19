@@ -19,13 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\user\Desktop\DichotomyMethod.cpp" />
-    <ClCompile Include="C:\Users\user\Desktop\Lab_6.cpp" />
-    <ClCompile Include="C:\Users\user\Desktop\NewtonMethod.cpp" />
+    <ClCompile Include="DichotomyMethod.cpp" />
+    <ClCompile Include="Lab_6.cpp" />
+    <ClCompile Include="NewtonMethod.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\user\Desktop\DichotomyMethod.h" />
-    <ClInclude Include="C:\Users\user\Desktop\NewtonMethod.h" />
+    <ClInclude Include="DichotomyMethod.h" />
+    <ClInclude Include="NewtonMethod.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
