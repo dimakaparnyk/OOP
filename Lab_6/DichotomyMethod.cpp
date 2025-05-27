@@ -13,12 +13,17 @@ double DichotomyMethod::f(double x) {
     return x - 2 + sin(1 / x);  // Приклад: f(x) = x - 2 + sin(1/x)
 }
 
+//(int a, int b) — це параметри лямбди.
+//
+//-> int — це тип повернення(не обов'язково, якщо тип можна вивести автоматично).
+//
+//{ return a + b; } — це тіло функції.
+//f(x)[] — це capture list, де можна визначити, які змінні з зовнішнього контексту доступні всередині лямбда
 
 // Метод для знаходження кореня методом дихотомії
 int DichotomyMethod::count(double& x) {
     int iterations = 0;  // Лічильник ітерацій
-    auto f = [](double x) { return x - 2 + sin(1 / x); };  // Лямбда-вираз для f(x)
-
+    auto f = [](double x) { return x - 2 + sin(1 / x); };  // Лямбда-вираз для f(x) 
     while ((b - a) > eps) {
         double c = (a + b) / 2;
         if (f(c) == 0) {
